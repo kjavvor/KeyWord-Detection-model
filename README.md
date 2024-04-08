@@ -27,6 +27,17 @@ The audio files are organized into folders based on the word they contain. To ca
 - **Download**: [Google Speech Commands Data Set v0.02](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz)
 - **Further Reading**: [ArXiv Link](https://arxiv.org/abs/1804.03209)
 
+## Approach
+
+- **Data Preparation**: Audio files were categorized into training, validation, and testing sets.
+- **Feature Extraction**: Mel-Frequency Cepstral Coefficients (MFCCs) were extracted from audio signals.
+- **Model Architecture**: A Convolutional Neural Network (CNN) model was designed, emphasizing feature extraction and classification accuracy.
+- **Training and Evaluation**: The model underwent training with specific parameters and was evaluated on unseen test data, showing promising results.
+
+## Results
+
+The model demonstrated high accuracy in keyword detection, validating the effectiveness of the CNN approach in speech recognition tasks.
+
 ## Acknowledgments
 
 This project would not have been possible without the comprehensive data provided by the Google Speech Commands dataset and the invaluable research and insights from the machine learning community.
