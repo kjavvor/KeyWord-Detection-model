@@ -1,4 +1,4 @@
-# KeyWord-Detection-model
+# KeyWord Detection Project
 
 ### By Kamil Jaworski
 
